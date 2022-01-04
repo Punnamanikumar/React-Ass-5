@@ -13,7 +13,7 @@ import { StudentContext } from "./StudentContext";
 //! Display Students List....Component
 
 const Students = () => {
-  const [students, setStudents] = useContext(StudentContext);
+  const [students, ] = useContext(StudentContext);
   // console.log("Students:",students);
   
   return (
